@@ -403,9 +403,9 @@ public class TestAWTCameraMouseController {
     when(layout.getYTickRenderer()).thenReturn(new ScientificNotationTickRenderer());
     when(layout.getZTickRenderer()).thenReturn(new ScientificNotationTickRenderer());
 
-    Assert.assertEquals("The X axis=1,23", mouse.format(Axis.X, 1.2345678f));
-    Assert.assertEquals("The Y axis=2,2e+00", mouse.format(Axis.Y, 2.2345678f));
-    Assert.assertEquals("The Z axis=3,2e+00", mouse.format(Axis.Z, 3.2345678f));
+    Assert.assertEquals("The X axis=1.23", mouse.format(Axis.X, 1.2345678f));
+    Assert.assertEquals("The Y axis=2.2e+00", mouse.format(Axis.Y, 2.2345678f));
+    Assert.assertEquals("The Z axis=3.2e+00", mouse.format(Axis.Z, 3.2345678f));
 
   }
   
