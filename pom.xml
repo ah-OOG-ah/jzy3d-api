@@ -87,12 +87,12 @@
 	</modules>
 
 	<scm>
-		<connection>scm:git:git@github.com:jzy3d/jzy3d-api.git</connection>
+		<connection>scm:git:git@github.com:ah-OOG-ah/jzy3d-api.git</connection>
 		<tag>jzy3d-all-2.1.0</tag>
 	</scm>
 	<issueManagement>
 		<system>Github</system>
-		<url>https://github.com/jzy3d/jzy3d-api/issues</url>
+		<url>https://github.com/ah-OOG-ah/jzy3d-api/issues</url>
 	</issueManagement>
 
 	<!-- Used to deploy to Jzy3d repository -->
